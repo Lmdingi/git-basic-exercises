@@ -1,0 +1,583 @@
+    1  ls
+    2  cd ~
+    3  clear
+    4  ls
+    5  ls /data
+    6  ls /
+    7  pwd
+    8  mkdir Learning_unix
+    9  ls
+   10  cd Learning_unix/
+   11  pwd
+   12  mkdir Outer_directory
+   13  cd Outer_directory/
+   14  mkdir Inner_directory
+   15  cd Inner_directory/
+   16  pwd
+   17  cd /
+   18  pwd
+   19  ls
+   20  cd home/
+   21  pwd
+   22  ls
+   23  cd /home/luks/
+   24  cd /
+   25  cd
+   26  pwd
+   27  ls -l /tmp/
+   28  ls -R /tmp/
+   29  ls -l -t -r /tmp/
+   30  ls -lh /tmp/
+   31  pwd
+   32  cd Learning_unix/
+   33  touch heaven.txt
+   34  touch earth.txt
+   35  ls
+   36  rm -i earth.txt 
+   37  ls
+   38  cd Outer_directory/`
+   39  wq
+   40  q!
+   41  w
+   42  q
+   43  qquit
+   44  cd /*/`
+   45  sudo apt update
+   46  sudo apt full-upgrade
+   47  ls
+   48  ls /data
+   49  ls /
+   50  ls
+   51  cd
+   52  ls
+   53  pwd
+   54  cp Learning_unix/ DeleteDir/
+   55  cp -p Learning_unix/ DeleteDir/
+   56  cp Learning_unix DeleteDir
+   57  cd Learning_unix/
+   58  pwd
+   59  ls
+   60  cd Outer_directory/
+   61  ls
+   62  touch del.txt
+   63  ls
+   64  cd ..
+   65  pwd
+   66  ls
+   67  rmdir Outer_directory/
+   68  rm -r Outer_directory/
+   69  ls
+   70  cd
+   71  ls
+   72  rm -i Learning_unix/
+   73  rmdir -i Learning_unix/
+   74  rmdir Learning_unix/
+   75  rm r Learning_unix/
+   76  rm -r Learning_unix/
+   77  ls
+   78  clear
+   79  git status
+   80  git config
+   81  clear
+   82  git config --list
+   83  git --version
+   84  git config --list --show-origin
+   85  git --list user.name
+   86  git config --list --show-origin user.name
+   87  clear
+   88  git config --global user.name "Luxolo Mdingi"
+   89  git --list user.name
+   90  git config --list --show-origin user.name
+   91  clear
+   92  git config --global user.email lmdingi4@gmail.com
+   93  git config --list
+   94  ls
+   95  git clone https://github.com/Umuzi-org/Luxolo-Mdingi-394-bash-for-bootcamp-
+   96  ls
+   97  xlear
+   98  clear
+   99  git clone git@github.com:Umuzi-org/Luxolo-Mdingi-394-bash-for-bootcamp-.git
+  100  lis
+  101  ls
+  102  clear
+  103  ls
+  104  git --list
+  105  git config  --list
+  106  pwd
+  107  git init
+  108  pwd
+  109  git clone git@github.com:Umuzi-org/Luxolo-Mdingi-394-bash-for-bootcamp-.git
+  110  git config  --list
+  111  rm -r .git/
+  112  git config  --list
+  113  clear
+  114  git@github.com:Umuzi-org/Luxolo-Mdingi-394-bash-for-bootcamp-.git
+  115  git clone git@github.com:Umuzi-org/Luxolo-Mdingi-394-bash-for-bootcamp-.git
+  116  git clone git@github.com:Umuzi-org/Luxolo-Mdingi-429-bootcamp-writing-assignment-markdown.git
+  117  git clone https://github.com/Umuzi-org/Luxolo-Mdingi-394-bash-for-bootcamp-.git
+  118  clear
+  119  cd ..
+  120  pwd
+  121  cd
+  122  git --list
+  123  git config --list
+  124  git config
+  125  git config --list --origin
+  126  git config --list --show-origin
+  127  clear
+  128  git clone "https://github.com/Umuzi-org/Luxolo-Mdingi-394-bash-for-bootcamp-.git"
+  129  clear
+  130  git config --list
+  131  git config --global user.name "Lmdingi"
+  132  git config --global user.email lmdingi4@gmail.com
+  133  git config --list
+  134  git clone https://github.com/Umuzi-org/Luxolo-Mdingi-394-bash-for-bootcamp-.git
+  135  clear
+  136  ssh-keygen -t rsa -b 4096 -C "lmdingi4@gmail.com"
+  137  clip < ~/.ssh/id_rsa.pub
+  138  vim ~/.ssh/id_rsa.pub
+  139  clear
+  140  git clone git@github.com:Umuzi-org/Luxolo-Mdingi-394-bash-for-bootcamp-.git
+  141  ls
+  142  ls Luxolo-Mdingi-394-bash-for-bootcamp-/
+  143  git branch
+  144  cd Luxolo-Mdingi-394-bash-for-bootcamp-/
+  145  git branch
+  146  clear
+  147  git log
+  148  git log --all
+  149  touch question_1.md
+  150  ls
+  151  code question_1.md 
+  152  ls
+  153  code question_1.md 
+  154  git log --stat
+  155  git status -s
+  156  git add question_1.md 
+  157  git commit -a -v
+  158  git remote -v
+  159  git config --global core.editor "vim"
+  160  git commit -a -v
+  161  clear
+  162  git log --stat --all
+  163  git log --oneline --decorate  --graph --all
+  164  git push
+  165  git log --oneline --decorate  --graph --all
+  166  git log --pretty=fuller
+  167  clear
+  168  touch question_2.md 
+  169  add . 
+  170  clear
+  171  git add .
+  172  git log --oneline --decorate  --graph --all
+  173  code question_2.md 
+  174  ls/
+  175  ls /
+  176  git status
+  177  git status -s
+  178  git commit -a -v
+  179  git log --oneline --decorate  --graph --all
+  180  git push
+  181  git log --oneline --decorate  --graph --all
+  182  git status -s
+  183  touch question_3.md
+  184  code question_3.md
+  185  pwd
+  186  git status -s
+  187  git add .
+  188  git commit -a -v
+  189  git log --oneline --decorate  --graph --all
+  190  git push
+  191  git status
+  192  cp question_3.md question_4.md
+  193  git status -s
+  194  code question_4.md
+  195  mkdir del
+  196  rmdrir del
+  197  rmdir del
+  198  git commit -a -v
+  199  git add .
+  200  git commit -v
+  201  git push
+  202  cp question_3.md question_5.md
+  203  code question_5.md
+  204  git add .
+  205  git commit -v
+  206  git push
+  207  cp question_3.md question_6.md
+  208  cp question_3.md question_7.md
+  209  cp question_3.md question_8.md
+  210  cp question_3.md question_9.md
+  211  cp question_3.md question_10.md
+  212  cp question_3.md question_11.md
+  213  cp question_3.md question_12.md
+  214  cp question_3.md question_13.md
+  215  gid add .
+  216  git add .
+  217  mkdir del
+  218  cd del
+  219  cd ..
+  220  cd del
+  221  cd ../
+  222  cd del
+  223  mkdir del
+  224  cd del
+  225  cd ../../
+  226  cd home
+  227  cd del
+  228  cd ..
+  229  cd del/
+  230  touch home
+  231  ls
+  232  cd home
+  233  cd ..
+  234  ls
+  235  cd man
+  236  man ls
+  237  mkdir git-basic-exercises
+  238  cd git-basic-exercises/
+  239  touch texting.md
+  240  cd ..
+  241  rm -r git-basic-exercises/
+  242  rm -r del/
+  243  git status -s
+  244  git commit -a -v
+  245  git push
+  246  git log --oneline --decorate  --graph --all
+  247  cd
+  248  clear
+  249  ls
+  250  ls -a
+  251  clear
+  252  ls
+  253  git config --global user.name "Luxolo Mdingi"
+  254  git config --list
+  255  git clone git@github.com:Umuzi-org/Luxolo-Mdingi-606-tilde-project-tutorial-how-repo-projects-work-.git
+  256  ls
+  257  cd Luxolo-Mdingi-606-tilde-project-tutorial-how-repo-projects-work-/
+  258  ls
+  259  clear
+  260  ls
+  261  code README.md 
+  262  ls
+  263  cd Luxolo-Mdingi-606-tilde-project-tutorial-how-repo-projects-work-/
+  264  ls
+  265  touch important.md
+  266  code important.md 
+  267  git status -s
+  268  ls
+  269  code important.md 
+  270  git add important.md 
+  271  git status -s
+  272  cd ..
+  273  ls
+  274  git clone git@github.com:Umuzi-org/Luxolo-Mdingi-219-level-1-programming-katas-javascript.git
+  275  ls
+  276  cd Luxolo-Mdingi-394-bash-for-bootcamp-/
+  277  ls
+  278  cd ..
+  279  clear
+  280  ls
+  281  cd Luxolo-Mdingi-219-level-1-programming-katas-javascript/
+  282  ls
+  283  git status -s
+  284  git status
+  285  touch Task1.js
+  286  mv Task1.js task1.js
+  287  ls
+  288  code task1.js 
+  289  ls
+  290  cd Luxolo-Mdingi-219-level-1-programming-katas-javascript/
+  291  code .
+  292  ls
+  293  code task1.js 
+  294  node task1.js 
+  295  cd
+  296  sudo apt install nodejs
+  297  node task1.js 
+  298  cd Luxolo-Mdingi-219-level-1-programming-katas-javascript/
+  299  ls
+  300  node task1.js 
+  301  clear
+  302  git status
+  303  git add .
+  304  git commit -v
+  305  git log --decorate --graph --all --oneline
+  306  git push
+  307  git log --decorate --graph --all --oneline
+  308  clear
+  309  git switch -c task2
+  310  git log --decorate --graph --all --oneline
+  311  touch task2.js
+  312  git add .
+  313  git commit -v
+  314  git push
+  315  git push --set-upstream origin task2
+  316  git log --decorate --graph --all --oneline
+  317  clear
+  318  node task2.js 
+  319  cd
+  320  ls
+  321  cd Luxolo-Mdingi-394-bash-for-bootcamp-/
+  322  code .
+  323  git log --oneline --decorate  --graph --all
+  324  mkdir g/gj/
+  325  mkdir g
+  326  cd g
+  327  mkdir g
+  328  cd g
+  329  cd ../..
+  330  cd -
+  331  cd ..\..
+  332  cd ../../
+  333  cd ../..
+  334  cd -
+  335  cd ../..
+  336  cd -
+  337  cd ../..
+  338  cd -
+  339  cd g
+  340  cd ../..
+  341  cd -
+  342  cd ../../
+  343  ls
+  344  rm -r g
+  345  ls
+  346  man cd
+  347  man ls
+  348  clear
+  349  git commit -a -v
+  350  git --decorate --graph --oneline --all
+  351  git log --decorate --graph --oneline --all
+  352  git push
+  353  git log --decorate --graph --oneline --all
+  354  git log --stat
+  355  ls
+  356  node task2.js 
+  357  clear
+  358  node task2.js 
+  359  clear
+  360  git log --decorate --graph --oneline --all
+  361  git commit -a -v
+  362  git log --decorate --graph --oneline --all
+  363  git push
+  364  touch task3.js
+  365  code task3.js
+  366  git add task3.js 
+  367  node task3.js 
+  368  git commit -a -v
+  369  git switch main
+  370  git branch
+  371  git branch -m task2 tasks
+  372  git branch
+  373  git switch tasks
+  374  git log --decorate --graph --oneline --all
+  375  git commit -a -v
+  376  git log --decorate --graph --oneline --all
+  377  git push
+  378  git push origin HEAD
+  379  git log --decorate --graph --oneline --all
+  380  git branch -a
+  381  git push origin -d task2
+  382  git branch -a
+  383  git log --decorate --graph --oneline --all
+  384  branch
+  385  git branch
+  386  git branch -r
+  387  rm -f -r
+  388  ls
+  389  git branch -D tasks
+  390  git branch -D origin/tasks
+  391  git branch -D tasks
+  392  git branch -d tasks
+  393  git main
+  394  git switch main
+  395  git branch -d tasks
+  396  git branch -D tasks
+  397  git push
+  398  git branch -D origin/tasks
+  399  git push origin -d tasks
+  400  git rm task1.js 
+  401  ls
+  402  git commit -a -m "remove file"
+  403  git push
+  404  git siwtch -c task1
+  405  git switch -c task1
+  406  touch task1.js
+  407  code task1.js 
+  408  git add .
+  409  git commit -v
+  410  git switch main
+  411  git switch -c task2
+  412  code task2.js 
+  413  git add .
+  414  git commit -v
+  415  git switch main
+  416  git switch -c task3
+  417  code task3.js
+  418  node task3.js 
+  419  git add .
+  420  git commit -v
+  421  git switch main
+  422  git --decorate --graph --oneline --all
+  423  git log --decorate --graph --oneline --all
+  424  git push
+  425  git push -u origin task1
+  426  git push -u origin task2
+  427  git push -u origin task3
+  428  git branch -v
+  429  git branch 
+  430  git branch --all
+  431  git branch -a
+  432  git status
+  433  git branch -a
+  434  git push -D origin important
+  435  git push -d origin important
+  436  git branch -a
+  437  git push -d origin revert-1-important
+  438  git branch -a
+  439  git commit -a -m "remove file"
+  440  git push
+  441  git pull
+  442  cd
+  443  ls
+  444  rm -r Luxolo-Mdingi-606-tilde-project-tutorial-how-repo-projects-work-/
+  445  cd
+  446  ls
+  447  cd -
+  448  rm -fr .git
+  449  ls
+  450  cd
+  451  ls
+  452  rm -fr Luxolo-Mdingi-606-tilde-project-tutorial-how-repo-projects-work-/
+  453  ls
+  454  cd
+  455  ls
+  456  git clone git@github.com:Umuzi-org/Luxolo-Mdingi-606-tilde-project-tutorial-how-repo-projects-work-.git
+  457  ls
+  458  cd Luxolo-Mdingi-606-tilde-project-tutorial-how-repo-projects-work-/
+  459  ls
+  460  cd Luxolo-Mdingi-606-tilde-project-tutorial-how-repo-projects-work-/
+  461  ls
+  462  code important.md
+  463  ls
+  464  git branch -all
+  465  git branch --all
+  466  git pull
+  467  git branch --all
+  468  git log 
+  469  git log --decorate --graph --oneline --all
+  470  git switch branch -c important
+  471  git switch -c important
+  472  code important.md
+  473  touch  important.md
+  474  code important.md
+  475  git add .
+  476  git commit -v
+  477  git push
+  478  git push --set-upstream origin important
+  479  git log --decorate --graph --oneline --all
+  480  git main
+  481  git switch  main
+  482  git log --decorate --graph --oneline --all
+  483  git push --set-upstream origin important
+  484  git log --decorate --graph --oneline --all
+  485  cd
+  486  git status
+  487  node task6.js 
+  488  git commit -a -v
+  489  git log --decorate --graph --oneline --all
+  490  git push --set-upstream origin task6
+  491  git log --decorate --graph --oneline --all
+  492  git switch main
+  493  git switch -c task7
+  494  touch task7.js
+  495  code task7.js
+  496  git add .
+  497  clear
+  498  node task7.js 
+  499  clear
+  500  node task7.js 
+  501  git commit -a -v
+  502  git log --decorate --graph --oneline --all
+  503  git push --set-upstream origin task7
+  504  git log --decorate --graph --oneline --all
+  505  cd
+  506  clear
+  507  git log --decorate --graph --oneline --all
+  508  git pull
+  509  git switch  branch -a
+  510  git  branch -a
+  511  git switch important
+  512  git pull
+  513  code README.md 
+  514  code important.md 
+  515  git commit -a -v
+  516  git push
+  517  git log --decorate --graph --oneline --all
+  518  ls
+  519  mkdir git-basic-exercises
+  520  ls
+  521  cd git-basic-exercises/
+  522  ls -a
+  523  git status
+  524  git init
+  525  ls -a
+  526  git status
+  527  touch README.md
+  528  ls -a
+  529  git log
+  530  git add README.md 
+  531  git status
+  532  git rm --cached README.md 
+  533  git status
+  534  code .
+  535  git add README.md 
+  536  git status
+  537  git rm --cached README.md 
+  538  git status
+  539  git add README.md 
+  540  git commit -m "initial commit"
+  541  git log
+  542  nano README.md
+  543  vim README.md
+  544  cat README.md 
+  545  git status
+  546  git commit -a -v
+  547  vim README.md 
+  548  git commit -a -v
+  549  git log
+  550  git log --all
+  551  clear
+  552  git log
+  553  git checkout 13f6bc852ed94e9151a7d7030a9867a70dde41e3
+  554  cat README.md 
+  555  git checkout main
+  556  git switch -
+  557  git branch -a
+  558  cat README.md 
+  559* git switch 13f6bc852ed94e9
+  560  git checkout 13f6bc852ed94e9151a7d7030a9867a70dde41e3
+  561  git checkout master
+  562  git checkout 13f6bc852ed94e9151a7d7030a9867a70dde41e3
+  563  gits log 
+  564  git log 
+  565  git checkout master
+  566  git log 
+  567  clear
+  568  git branch
+  569  git switch milkshake-flavours
+  570  git switch -c  milkshake-flavours
+  571  git branch
+  572  vim milkshakes.md
+  573  git status
+  574  git commit -a -v
+  575  git commit add .
+  576  git add .
+  577  git commit -a -v
+  578  git log
+  579  git checkout master
+  580  git switch -c history
+  581  git branch
+  582  git log
+  583  history > history.txt
